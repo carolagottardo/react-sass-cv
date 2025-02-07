@@ -1,4 +1,5 @@
 .navbar-base {
+  background-color: #1a1229;
   display: flex;
   width: 100%;
   height: 100px;
@@ -11,6 +12,7 @@
   .navbar-logo {
     color: #9b8abd;
     font-size: 40px;
+    text-decoration: none;
     cursor: pointer;
   }
 }

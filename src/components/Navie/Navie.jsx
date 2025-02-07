@@ -1,5 +1,7 @@
 import "./Navie.css";
 import { assets } from "../../assets/assets";
+import Sectionsy from "../Sectionsy/Sectionsy";
+import { Link } from "react-scroll";
 
 function Navie() {
   return (
@@ -8,16 +10,24 @@ function Navie() {
 
       <ul>
         <li>
-          <a href="#home">Home</a>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
         </li>
         <li>
-          <a href="#skills">Skills</a>
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
 

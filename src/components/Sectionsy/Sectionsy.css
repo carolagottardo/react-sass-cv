@@ -10,6 +10,22 @@
   border: 1px solid #a020f0;
   height: 760px;
   scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  h1 {
+    font-size: 60px;
+    margin-right: 280px;
+  }
+
+  p {
+    font-size: 24px;
+    margin-right: 420px;
+    margin-top: -20px;
+    color: grey;
+  }
 }
 
 .about-section {
@@ -17,6 +33,15 @@
   border: 1px solid hotpink;
   height: 760px;
   scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  p {
+    font-size: 18px;
+    width: 600px;
+  }
 }
 
 .skills-section {
@@ -31,4 +56,20 @@
   border: 1px solid yellow;
   height: 760px;
   scroll-behavior: smooth;
+}
+
+.buttonie {
+  background-color: #9b8abd;
+  color: black;
+  font-weight: bold;
+  border-radius: 40px;
+  border-style: solid;
+  padding: 16px;
+}
+
+.buttonie-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 500px;
 }

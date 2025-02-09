@@ -12,17 +12,15 @@
   scroll-behavior: smooth;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 
   h1 {
     font-size: 60px;
-    margin-right: 280px;
+    margin-top: 180px;
   }
 
   p {
     font-size: 24px;
-    margin-right: 420px;
     margin-top: -20px;
     color: grey;
   }
@@ -35,12 +33,23 @@
   scroll-behavior: smooth;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+
+  h1 {
+    font-size: 48px;
+    color: #9b8abd;
+    margin-top: auto; /* Push to top */
+    margin-top: 0px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 60px;
+  }
 
   p {
     font-size: 18px;
-    width: 600px;
+    width: 530px;
   }
 }
 
@@ -49,6 +58,26 @@
   border: 1px solid orange;
   height: 760px;
   scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 48px;
+    color: #9b8abd;
+    margin-top: auto; /* Push to top */
+    margin-top: 0px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  gap: 480px;
 }
 
 .contact-section {
@@ -56,20 +85,44 @@
   border: 1px solid yellow;
   height: 760px;
   scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 48px;
+    color: #9b8abd;
+    margin-top: auto; /* Push to top */
+    margin-top: 0px;
+  }
 }
 
-.buttonie {
+.buttonie-style1 {
+  border-color: #9b8abd;
   background-color: #9b8abd;
-  color: black;
-  font-weight: bold;
+  color: #1a1229;
   border-radius: 40px;
   border-style: solid;
   padding: 16px;
+  font-size: 18px;
+}
+
+.buttonie-style2 {
+  border-color: #9b8abd;
+  background-color: transparent;
+  color: #9b8abd;
+  border-radius: 40px;
+  border-style: solid;
+  padding: 16px;
+  font-size: 19px;
 }
 
 .buttonie-container {
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  margin-right: 500px;
+  gap: 16px;
+}
+
+span {
+  color: #9b8abd;
 }

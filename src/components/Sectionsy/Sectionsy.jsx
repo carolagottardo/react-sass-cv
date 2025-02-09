@@ -9,24 +9,39 @@ function Sectionsy() {
         <h1>Carola Gottardo</h1>
         <p>Aspiring Fullstack Developer</p>
         <div className="buttonie-container">
-          <button className="buttonie">Contact Me</button>
-          <button className="buttonie">Download CV</button>
+          <button className="buttonie-style1">Contact Me</button>
+          <button className="buttonie-style2">Download CV</button>
         </div>
       </div>
 
       <div id="about" className="about-section">
         <h1>About</h1>
-        <h2>I'm an aspiring Fullstack Developer.</h2>
+        <h2>
+          I'm an aspiring <span>Full Stack Developer</span>.
+        </h2>
         <p>
           Recent Computer Science graduate from Università degli Studi
-          dell'Insubria, seeking to embark on my professional journey in the
-          workforce to continuously expand on my skills and knowledge in
-          Fullstack Development.
+          dell'Insubria, ready to embark on my professional journey in the
+          workforce and begin my career to continuously expand on my skills and
+          knowledge in <span>Full Stack Development</span>.
+        </p>
+        <p>
+          Currently interested in UX/UI Design, Web and Visual Design because
+          they allow me to be creative and solve problems.
+        </p>
+        <p>
+          I'm confident that my strong foundation in Computer Science, combined
+          with my enthusiasm for Web and Software Development, will make me a
+          valuable asset to any team.
         </p>
       </div>
 
       <div id="skills" className="skills-section">
         <h1>Skills</h1>
+        <div className="skills-container">
+          <h2>Technical</h2>
+          <h2>Languages</h2>
+        </div>
       </div>
 
       <div id="contact" className="contact-section">

@@ -46,6 +46,33 @@ function Sectionsy() {
 
       <div id="contact" className="contact-section">
         <h1>Contact</h1>
+        <div className="card-style2">
+          <div className="row1">
+            <input
+              type="text"
+              placeholder="First Name"
+              className="input-style1"
+            />
+            <input
+              type="text"
+              placeholder="Last Name"
+              className="input-style1"
+            />
+          </div>
+          <div className="row2">
+            <input type="text" placeholder="Company" className="input-style1" />
+            <input type="email" placeholder="Email" className="input-style1" />
+          </div>
+          <div className="row3">
+            <input type="text" placeholder="Subject" className="input-style2" />
+          </div>
+          <div className="row4">
+            <input type="text" placeholder="Message" className="input-style2" />
+          </div>
+          <div className="row5">
+            <button className="buttonie-style3">Send Message</button>
+          </div>
+        </div>
       </div>
     </div>
   );

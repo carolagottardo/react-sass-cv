@@ -2,10 +2,14 @@ import "./Navie.css";
 import { assets } from "../../assets/assets";
 import Sectionsy from "../Sectionsy/Sectionsy";
 import { Link } from "react-scroll";
+import { useContext } from "react";
+import { ThemeContext } from "../../ThemeContext";
 
 function Navie() {
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
   return (
-    <nav class="navbar-base">
+    <nav className={`navbar-base ${theme}`}>
       <h1 class="navbar-logo">CG</h1>
 
       <ul>
@@ -31,8 +35,13 @@ function Navie() {
         </li>
       </ul>
 
-      <button class="light-dark-button">
-        <img src={assets.darkmode} width="26" height="26"></img>
+      <button class="light-dark-button" onClick={toggleTheme}>
+        <img
+          src={assets.darkmode}
+          width="26"
+          height="26"
+          alt="Toggle Theme"
+        ></img>
       </button>
     </nav>
   );

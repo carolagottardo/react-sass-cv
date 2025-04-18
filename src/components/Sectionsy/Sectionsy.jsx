@@ -36,13 +36,9 @@ function Sectionsy() {
             Recent Computer Science graduate from Università degli Studi
             dell'Insubria, ready to embark on my professional journey in the
             workforce and begin my career to continuously expand on my skills
-            and knowledge in <span>Full Stack Development</span>.
-          </p>
-          <p>
+            and knowledge in <span>Full Stack Development</span>. <br /> <br />{" "}
             Currently interested in UX/UI Design, Web and Visual Design because
-            they allow me to be creative and solve problems.
-          </p>
-          <p>
+            they allow me to be creative and solve problems. <br /> <br />
             I'm confident that my strong foundation in Computer Science,
             combined with my enthusiasm for Web and Software Development, will
             make me a valuable asset to any team.

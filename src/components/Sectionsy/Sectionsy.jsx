@@ -20,8 +20,7 @@ function Sectionsy() {
           <h1>Carola Gottardo</h1>
           <p>Aspiring Fullstack Developer</p>
           <div className="buttonie-container">
-            <button className="buttonie-style1">Contact Me</button>
-            <button className="buttonie-style2">Download CV</button>
+            <button className="buttonie-style1">Download CV</button>
           </div>
         </div>
       </div>

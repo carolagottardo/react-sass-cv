@@ -32,6 +32,10 @@
     .buttons-style {
       color: #1a1229;
     }
+
+    .buttons-style:hover {
+      color: #654d91;
+    }
   }
 
   &.dark {
@@ -52,19 +56,11 @@
     .buttons-style {
       color: #d9cdf1;
     }
-  }
-}
 
-ul {
-  list-style-type: none;
-  height: 50px;
-  border-radius: 40px;
-  background-color: #110c1b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
+    .buttons-style:hover {
+      color: #654d91;
+    }
+  }
 }
 
 .dl-button {

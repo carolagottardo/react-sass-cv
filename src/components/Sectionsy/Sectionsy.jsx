@@ -36,21 +36,70 @@ function Sectionsy() {
             dell'Insubria, ready to embark on my professional journey in the
             workforce and begin my career to continuously expand on my skills
             and knowledge in <span>Full Stack Development</span>. <br /> <br />{" "}
-            Currently interested in UX/UI Design, Web and Visual Design because
-            they allow me to be creative and solve problems. <br /> <br />
+            Currently developed in UX/UI Design, Web and Visual Design because
+            they allow me to be creative. <br /> <br />
             I'm confident that my strong foundation in Computer Science,
             combined with my enthusiasm for Web and Software Development, will
             make me a valuable asset to any team.
           </p>
         </div>
-        <div className="card-style1"></div>
       </div>
 
       <div id="skills" className="skills-section">
         <h1>Skills</h1>
         <div className="skills-container">
-          <h2>Technical</h2>
-          <h2>Languages</h2>
+          <div className="technical-container">
+            <h2>Technical</h2>
+            <div className="card-style1">
+              <img src={assets.javascriptlogo} width="34" height="34"></img>
+              <h3>JavaScript</h3>
+            </div>
+            <div className="card-style1">
+              <img src={assets.typescriptlogo} width="34" height="34"></img>
+              <h3>TypeScript</h3>
+            </div>
+            <div className="card-style1">
+              <img src={assets.reactlogo} width="34" height="34"></img>
+              <h3>React</h3>
+            </div>
+            <div className="card-style1">
+              <img src={assets.htmllogo} width="34" height="34"></img>
+              <h3>HTML</h3>
+            </div>
+            <div className="card-style1">
+              <img src={assets.csslogo} width="34" height="34"></img>
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="technical-container2">
+            <div className="card-style3">
+              <img src={assets.bootstraplogo} width="34" height="34"></img>
+            </div>
+            <div className="card-style3">
+              <img src={assets.tailwindlogo} width="34" height="34"></img>
+            </div>
+            <div className="card-style3">
+              <img src={assets.angularlogo} width="34" height="34"></img>
+            </div>
+            <div className="card-style3">
+              <img src={assets.sasslogo} width="34" height="34"></img>
+            </div>
+          </div>
+          <div className="language-container">
+            <h2>Languages</h2>
+            <div className="card-style1">
+              <img src={assets.italianlogo} width="34" height="34"></img>
+              <h3>Italian</h3>
+            </div>
+            <div className="card-style1">
+              <img src={assets.englishlogo} width="34" height="34"></img>
+              <h3>English</h3>
+            </div>
+            <div className="card-style1">
+              <img src={assets.spanishlogo} width="34" height="34"></img>
+              <h3>Spanish</h3>
+            </div>
+          </div>
         </div>
       </div>
 

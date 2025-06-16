@@ -15,6 +15,11 @@ import reactlogo from "./reactlogo.svg";
 import sasslogo from "./sasslogo.svg";
 import tailwindlogo from "./tailwindlogo.svg";
 import typescriptlogo from "./typescriptlogo.svg";
+import javalogo from "./javalogo.svg";
+import pythonlogo from "./pythonlogo.svg";
+import kotlinlogo from "./kotlinlogo.svg";
+import sqllogo from "./sqllogo.svg";
+import postgresqllogo from "./postgresqllogo.svg";
 
 import italianlogo from "./italianlogo.svg";
 import englishlogo from "./englishlogo.svg";
@@ -38,6 +43,11 @@ export const assets = {
   sasslogo,
   tailwindlogo,
   typescriptlogo,
+  javalogo,
+  pythonlogo,
+  kotlinlogo,
+  sqllogo,
+  postgresqllogo,
 
   italianlogo,
   englishlogo,

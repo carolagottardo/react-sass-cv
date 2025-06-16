@@ -61,13 +61,11 @@
   scroll-behavior: smooth;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 
   h1 {
     font-size: 48px;
     color: #9b8abd;
-    margin-top: auto; /* Push to top */
-    margin-top: 0px;
   }
 
   h2 {
@@ -78,7 +76,8 @@
 .skills-container {
   display: flex;
   flex-direction: row;
-  gap: 120px;
+  gap: 10px;
+  width: 540px;
 }
 
 .contact-section {
@@ -87,7 +86,8 @@
   height: 760px;
   scroll-behavior: smooth;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 
   h1 {
@@ -152,16 +152,20 @@ span {
 
 .card-style1 {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
   background-color: #110c1b;
   margin-top: 24px;
   border-radius: 10px;
-  width: 220px;
-  height: 70px;
+  width: 260px;
+  height: 80px;
 
   h3 {
-    margin-left: 60px;
+    font-size: 24px;
+  }
+
+  img {
+    padding: 20px;
   }
 }
 
@@ -173,7 +177,7 @@ span {
   margin-top: 40px;
   border-radius: 10px;
   width: 600px;
-  height: 580px;
+  height: 540px;
 }
 
 .card-style3 {
@@ -183,13 +187,29 @@ span {
   background-color: #110c1b;
   margin-top: 24px;
   border-radius: 10px;
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 80px;
+
+  img {
+    padding: 20px;
+  }
+}
+
+.card-style4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #110c1b;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 320px;
+  height: 280px;
 }
 
 .row1 {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 16px;
   margin-top: 70px;
 }
@@ -197,6 +217,7 @@ span {
 .row2 {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 16px;
   margin-top: 10px;
 }
@@ -204,12 +225,14 @@ span {
 .row3 {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-top: 10px;
 }
 
 .row4 {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-top: 10px;
   height: 200px;
 }
@@ -218,7 +241,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-right: 20px;
 }
 
@@ -299,16 +322,18 @@ hr {
 }
 
 .technical-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .technical-container2 {
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.technical-container3 {
+  padding-right: 200px;
 }
 
 .languages-container {
   display: flex;
+  flex-direction: column;
 }

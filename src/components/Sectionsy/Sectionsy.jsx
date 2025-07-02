@@ -13,16 +13,20 @@ function Sectionsy() {
             Follow On
           </p>
           <hr />
-          <img src={assets.linkedinlogo} width="28" height="28"></img>
-          <img src={assets.githublogo} width="28" height="28"></img>
+          <button className="logo-button">
+            <img src={assets.linkedinlogo} width="30" height="30"></img>
+          </button>
+          <button className="logo-button">
+            <img src={assets.githublogo} width="30" height="30"></img>
+          </button>
         </div>
         <div className="title-group">
           <h1>Carola Gottardo</h1>
           <p>Aspiring Fullstack Developer</p>
           <div className="buttonie-container">
             <a
-              href="https://raw.githubusercontent.com/CarloFerraro10/Test/266f1c5bc400ed478b4a813f5f70a155c9b9a840/dummy.pdf"
-              download="dummy.pdf"
+              href="https://raw.githubusercontent.com/carolagottardo/react-sass-cv/e0a3bae682fd2417fd956f1106f53d0efc6621b0/public/CV/Gottardo_Carola_CV.pdf"
+              download="Gottardo_Carola_CV.pdf"
             >
               <button className="buttonie-style1">Download CV</button>
             </a>
@@ -41,8 +45,6 @@ function Sectionsy() {
             dell'Insubria, ready to embark on my professional journey in the
             workforce and begin my career to continuously expand on my skills
             and knowledge in <span>Full Stack Development</span>. <br /> <br />{" "}
-            Currently developed in UX/UI Design, Web and Visual Design because
-            they allow me to be creative. <br /> <br />
             I'm confident that my strong foundation in Computer Science,
             combined with my enthusiasm for Web and Software Development, will
             make me a valuable asset to any team.
@@ -154,27 +156,29 @@ function Sectionsy() {
               />
             </div>
             <div className="row4">
-              <input
-                type="text"
+              <textarea
                 placeholder="Message"
-                className="input-style2"
+                className="input-style2 message-input"
               />
             </div>
             <div className="row5">
               <button className="buttonie-style3">Send Message</button>
             </div>
           </div>
+
           <div className="card-style4">
-            <div>
+            <div className="social-1">
               <h3>E-mail</h3>
               <p>carolamgottardo@gmail.com</p>
             </div>
-            <div>
+            <div className="social-2">
               <h3>Phone</h3>
               <p>+39 351 7423092</p>
             </div>
-            <div>
+            <div className="social-3">
               <h3>Socials</h3>
+              <img src={assets.linkedinlogo} width="30" height="30"></img>
+              <img src={assets.githublogo} width="30" height="30"></img>
             </div>
           </div>
         </div>

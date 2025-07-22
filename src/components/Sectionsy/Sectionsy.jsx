@@ -123,7 +123,37 @@ function Sectionsy() {
 
       <div id="contact" className="contact-section">
         <div className="cardsies-pluraldouble">
+          <div className="card-style4">
+            <div className="logo-socials-container">
+              <img src={assets.maillogo} width="34" height="34"></img>
+              <img src={assets.phonelogo} width="34" height="34"></img>
+            </div>
+            <div className="socials-container">
+              <div className="social-1">
+                <h3>E-mail</h3>
+                <p>carolamgottardo@gmail.com</p>
+              </div>
+              <div className="social-2">
+                <h3>Phone</h3>
+                <p>+39 351 7423092</p>
+              </div>
+              <div className="social-3">
+                <h3>Socials</h3>
+              </div>
+              <div className="logo-socials-container-2">
+                <button className="logo-button">
+                  <img src={assets.linkedinlogo} width="34" height="34"></img>
+                </button>
+                <button className="logo-button">
+                  <img src={assets.githublogo} width="34" height="34"></img>
+                </button>
+              </div>
+            </div>
+          </div>
+
           <div className="card-style2">
+            <h2>Contact Form</h2>
+            <h3>*Fill out the following form to contact me.</h3>
             <div className="row1">
               <input
                 type="text"
@@ -163,22 +193,6 @@ function Sectionsy() {
             </div>
             <div className="row5">
               <button className="buttonie-style3">Send Message</button>
-            </div>
-          </div>
-
-          <div className="card-style4">
-            <div className="social-1">
-              <h3>E-mail</h3>
-              <p>carolamgottardo@gmail.com</p>
-            </div>
-            <div className="social-2">
-              <h3>Phone</h3>
-              <p>+39 351 7423092</p>
-            </div>
-            <div className="social-3">
-              <h3>Socials</h3>
-              <img src={assets.linkedinlogo} width="30" height="30"></img>
-              <img src={assets.githublogo} width="30" height="30"></img>
             </div>
           </div>
         </div>

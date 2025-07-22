@@ -131,7 +131,7 @@
   margin-top: 40px;
   border-radius: 10px;
   width: 320px;
-  height: 294px;
+  height: 320px;
 
   p {
     color: #9b8abd;
@@ -141,7 +141,7 @@
 .logo-socials-container {
   display: flex;
   flex-direction: column;
-  margin-top: 28px;
+  margin-top: 40px;
   margin-left: 20px;
   gap: 56px;
 }
@@ -150,6 +150,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  margin-top: 12px;
 }
 
 .social-1,

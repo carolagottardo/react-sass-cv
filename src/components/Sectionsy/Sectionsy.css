@@ -333,6 +333,7 @@ span {
   justify-content: center;
   margin-top: 10px;
   height: 200px;
+  resize: none;
 }
 
 .row5 {
@@ -365,7 +366,7 @@ span {
 
 .message-input {
   vertical-align: top;
-  resize: vertical;
+  resize: none;
   min-height: 100px;
   font-family: "Arial", sans-serif;
 }

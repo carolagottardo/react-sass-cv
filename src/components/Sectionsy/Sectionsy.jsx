@@ -3,6 +3,7 @@ import "./Sectionsy.css";
 import Navie from "../Navie/Navie";
 import ScrollDown from "../ScrollDown";
 import { assets } from "../../assets/assets";
+import BackUpButton from "../BackUpButton";
 
 function Sectionsy() {
   return (
@@ -54,54 +55,57 @@ function Sectionsy() {
 
       <div id="skills" className="skills-section">
         <div className="skills-container">
-          <div className="technical-container">
-            <div className="card-style1">
-              <img src={assets.javascriptlogo} width="48" height="48"></img>
-              <h3>JavaScript</h3>
+          <div className="technical-containers">
+            <div className="technical-container1">
+              <h2>Technical Skills</h2>
+              <div className="card-style1">
+                <img src={assets.javascriptlogo} width="48" height="48"></img>
+                <h3>JavaScript</h3>
+              </div>
+              <div className="card-style1">
+                <img src={assets.typescriptlogo} width="48" height="48"></img>
+                <h3>TypeScript</h3>
+              </div>
+              <div className="card-style1">
+                <img src={assets.reactlogo} width="48" height="48"></img>
+                <h3>React</h3>
+              </div>
+              <div className="card-style1">
+                <img src={assets.htmllogo} width="48" height="48"></img>
+                <h3>HTML</h3>
+              </div>
+              <div className="card-style1">
+                <img src={assets.csslogo} width="48" height="48"></img>
+                <h3>CSS</h3>
+              </div>
             </div>
-            <div className="card-style1">
-              <img src={assets.typescriptlogo} width="48" height="48"></img>
-              <h3>TypeScript</h3>
+            <div className="technical-container2">
+              <div className="card-style3" dataName="Bootstrap">
+                <img src={assets.bootstraplogo} width="48" height="48"></img>
+              </div>
+              <div className="card-style3" dataName="Tailwind CSS">
+                <img src={assets.tailwindlogo} width="48" height="48"></img>
+              </div>
+              <div className="card-style3" dataName="Angular">
+                <img src={assets.angularlogo} width="48" height="48"></img>
+              </div>
+              <div className="card-style3" dataName="Java">
+                <img src={assets.javalogo} width="48" height="48"></img>
+              </div>
+              <div className="card-style3" dataName="Python">
+                <img src={assets.pythonlogo} width="48" height="48"></img>
+              </div>
             </div>
-            <div className="card-style1">
-              <img src={assets.reactlogo} width="48" height="48"></img>
-              <h3>React</h3>
-            </div>
-            <div className="card-style1">
-              <img src={assets.htmllogo} width="48" height="48"></img>
-              <h3>HTML</h3>
-            </div>
-            <div className="card-style1">
-              <img src={assets.csslogo} width="48" height="48"></img>
-              <h3>CSS</h3>
-            </div>
-          </div>
-          <div className="technical-container2">
-            <div className="card-style3" dataName="Bootstrap">
-              <img src={assets.bootstraplogo} width="48" height="48"></img>
-            </div>
-            <div className="card-style3" dataName="Tailwind CSS">
-              <img src={assets.tailwindlogo} width="48" height="48"></img>
-            </div>
-            <div className="card-style3" dataName="Angular">
-              <img src={assets.angularlogo} width="48" height="48"></img>
-            </div>
-            <div className="card-style3" dataName="Java">
-              <img src={assets.javalogo} width="48" height="48"></img>
-            </div>
-            <div className="card-style3" dataName="Python">
-              <img src={assets.pythonlogo} width="48" height="48"></img>
-            </div>
-          </div>
-          <div className="technical-container3">
-            <div className="card-style3" dataName="Kotlin">
-              <img src={assets.kotlinlogo} width="48" height="48"></img>
-            </div>
-            <div className="card-style3" dataName="PostgreSQL">
-              <img src={assets.postgresqllogo} width="48" height="48"></img>
-            </div>
-            <div className="card-style3" dataName="Sass">
-              <img src={assets.sasslogo} width="48" height="48"></img>
+            <div className="technical-container3">
+              <div className="card-style3" dataName="Kotlin">
+                <img src={assets.kotlinlogo} width="48" height="48"></img>
+              </div>
+              <div className="card-style3" dataName="PostgreSQL">
+                <img src={assets.postgresqllogo} width="48" height="48"></img>
+              </div>
+              <div className="card-style3" dataName="Sass">
+                <img src={assets.sasslogo} width="48" height="48"></img>
+              </div>
             </div>
           </div>
           <div className="language-container">
@@ -199,7 +203,7 @@ function Sectionsy() {
       </div>
 
       <footer className="footer-section">
-        <button className="butt">Back to Top</button>
+        <BackUpButton className="backupbutton"></BackUpButton>
       </footer>
     </div>
   );

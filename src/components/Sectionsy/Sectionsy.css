@@ -62,7 +62,8 @@
   scroll-behavior: smooth;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 300px;
 
   h1 {
     font-size: 48px;

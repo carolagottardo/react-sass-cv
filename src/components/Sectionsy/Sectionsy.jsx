@@ -4,6 +4,7 @@ import Navie from "../Navie/Navie";
 import ScrollDown from "../ScrollDown";
 import { assets } from "../../assets/assets";
 import BackUpButton from "../BackUpButton";
+import { Link } from "react-scroll";
 
 function Sectionsy() {
   return (
@@ -80,6 +81,7 @@ function Sectionsy() {
               </div>
             </div>
             <div className="technical-container2">
+              <h2>‎</h2>
               <div className="card-style3" dataName="Bootstrap">
                 <img src={assets.bootstraplogo} width="48" height="48"></img>
               </div>
@@ -97,6 +99,7 @@ function Sectionsy() {
               </div>
             </div>
             <div className="technical-container3">
+              <h2>‎</h2>
               <div className="card-style3" dataName="Kotlin">
                 <img src={assets.kotlinlogo} width="48" height="48"></img>
               </div>
@@ -109,6 +112,7 @@ function Sectionsy() {
             </div>
           </div>
           <div className="language-container">
+            <h2>Languages</h2>
             <div className="card-style1">
               <img src={assets.italianlogo} width="48" height="48"></img>
               <h3>Italian</h3>
@@ -203,7 +207,7 @@ function Sectionsy() {
       </div>
 
       <footer className="footer-section">
-        <BackUpButton className="backupbutton"></BackUpButton>
+        <BackUpButton className="backupbutton" />
       </footer>
     </div>
   );

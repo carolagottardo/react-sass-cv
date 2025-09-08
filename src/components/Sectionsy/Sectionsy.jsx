@@ -19,12 +19,16 @@ function Sectionsy() {
             Follow On
           </p>
           <hr />
-          <button className="logo-button">
-            <img src={assets.linkedinlogo} width="30" height="30"></img>
-          </button>
-          <button className="logo-button">
-            <img src={assets.githublogo} width="30" height="30"></img>
-          </button>
+          <a href="https://www.linkedin.com/in/carola-gottardo-579214333/">
+            <button className="logo-button">
+              <img src={assets.linkedinlogo} width="34" height="34"></img>
+            </button>
+          </a>
+          <a href="https://github.com/carolagottardo">
+            <button className="logo-button">
+              <img src={assets.githublogo} width="30" height="30"></img>
+            </button>
+          </a>
         </div>
         <div className={`title-group ${theme}`}>
           <h1>Carola Gottardo</h1>
@@ -198,12 +202,16 @@ function Sectionsy() {
                 <h3>Socials</h3>
               </div>
               <div className="logo-socials-container-2">
-                <button className="logo-button">
-                  <img src={assets.linkedinlogo} width="34" height="34"></img>
-                </button>
-                <button className="logo-button">
-                  <img src={assets.githublogo} width="34" height="34"></img>
-                </button>
+                <a href="https://www.linkedin.com/in/carola-gottardo-579214333/">
+                  <button className="logo-button">
+                    <img src={assets.linkedinlogo} width="34" height="34"></img>
+                  </button>
+                </a>
+                <a href="https://github.com/carolagottardo">
+                  <button className="logo-button">
+                    <img src={assets.githublogo} width="34" height="34"></img>
+                  </button>
+                </a>
               </div>
             </div>
           </div>

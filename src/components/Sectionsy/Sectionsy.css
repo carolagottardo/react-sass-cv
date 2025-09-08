@@ -17,14 +17,12 @@
   h1 {
     /* Carola Gottardo */
     font-size: 60px;
-    color: #d9cdf1;
   }
 
   p {
     /* Aspiring Full Stack Developer */
     font-size: 24px;
     margin-top: -20px;
-    color: white;
   }
 }
 
@@ -53,6 +51,26 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 110px;
+
+  &.light {
+    h1 {
+      color: #281b40;
+    }
+
+    p {
+      color: #8774ac;
+    }
+  }
+
+  &.dark {
+    h1 {
+      color: #d9cdf1;
+    }
+
+    p {
+      color: white;
+    }
+  }
 }
 
 .about-section {
@@ -131,7 +149,7 @@
   h1 {
     font-size: 48px;
     color: #9b8abd;
-    margin-top: auto; /* Push to top */
+    margin-top: auto;
     margin-top: 0px;
   }
 }
@@ -247,6 +265,7 @@ span {
 }
 
 .card-style1 {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -263,6 +282,59 @@ span {
   img {
     padding: 20px;
   }
+}
+
+.tooltip-content {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  pointer-events: none;
+
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  transform: translateY(-50%) translateX(15px);
+
+  /* Tooltip styling */
+  background-color: #110c1b;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  min-width: 180px;
+  max-width: 250px;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip-content::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent #110c1b transparent transparent;
+}
+
+.card-style1:hover .tooltip-content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+.tooltip-content h4 {
+  color: #9b8abd;
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.tooltip-content p {
+  color: #e0e0e0;
+  font-size: 0.9em;
+  line-height: 1.4;
+  margin-bottom: 0;
 }
 
 .card-style2 {
@@ -376,8 +448,8 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-right: 60px;
-  margin-top: 10px;
+  margin-right: 200px;
+  margin-top: 20px;
 }
 
 .butt {
@@ -410,4 +482,8 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.skill-title {
+  color: #9b8abd;
 }

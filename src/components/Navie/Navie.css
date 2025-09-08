@@ -7,6 +7,7 @@
   position: fixed;
   top: 0px;
   left: 0px;
+  z-index: 1000;
 
   .navbar-logo {
     font-size: 40px;
@@ -18,11 +19,11 @@
     background-color: #d9cdf1;
 
     .navbar-logo {
-      color: #1a1229;
+      color: #352357;
     }
 
     .dl-button {
-      background-color: #1a1229;
+      background-color: #352357;
     }
 
     .bg-nav {
@@ -30,7 +31,7 @@
     }
 
     .buttons-style {
-      color: #1a1229;
+      color: #352357;
     }
 
     .buttons-style:hover {

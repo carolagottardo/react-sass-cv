@@ -5,12 +5,16 @@ import ScrollDown from "../ScrollDown";
 import { assets } from "../../assets/assets";
 import BackUpButton from "../BackUpButton";
 import { Link } from "react-scroll";
+import { useContext } from "react";
+import { ThemeContext } from "../../ThemeContext";
 
 function Sectionsy() {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <div className="sections-base">
-      <div id="home" className="home-section">
-        <div className="social-group">
+    <div className={`sections-base ${theme}`}>
+      <div id="home" className={`home-section ${theme}`}>
+        <div className={`social-group ${theme}`}>
           <p className="uhhh" style={{ color: "#9b8abd", fontSize: "20px" }}>
             Follow On
           </p>
@@ -22,10 +26,10 @@ function Sectionsy() {
             <img src={assets.githublogo} width="30" height="30"></img>
           </button>
         </div>
-        <div className="title-group">
+        <div className={`title-group ${theme}`}>
           <h1>Carola Gottardo</h1>
           <p>Aspiring Fullstack Developer</p>
-          <div className="buttonie-container">
+          <div className={`buttonie-container ${theme}`}>
             <a
               href="https://raw.githubusercontent.com/carolagottardo/react-sass-cv/e0a3bae682fd2417fd956f1106f53d0efc6621b0/public/CV/Gottardo_Carola_CV.pdf"
               download="Gottardo_Carola_CV.pdf"
@@ -36,9 +40,9 @@ function Sectionsy() {
         </div>
       </div>
 
-      <div id="about" className="about-section">
+      <div id="about" className={`about-section ${theme}`}>
         <h1>About</h1>
-        <div className="about-group">
+        <div className={`about-group ${theme}`}>
           <h2>
             I'm an aspiring <span>Full Stack Developer</span>.
           </h2>
@@ -58,7 +62,7 @@ function Sectionsy() {
         <div className="skills-container">
           <div className="technical-containers">
             <div className="technical-container1">
-              <h2>Technical Skills</h2>
+              <h2 className="skill-title">Technical Skills</h2>
               <div className="card-style1">
                 <img src={assets.javascriptlogo} width="48" height="48"></img>
                 <h3>JavaScript</h3>
@@ -82,48 +86,93 @@ function Sectionsy() {
             </div>
             <div className="technical-container2">
               <h2>‎</h2>
-              <div className="card-style3" dataName="Bootstrap">
+              <div
+                className="card-style3"
+                dataName="Bootstrap"
+                data-tooltip="Bootstrap"
+              >
                 <img src={assets.bootstraplogo} width="48" height="48"></img>
               </div>
-              <div className="card-style3" dataName="Tailwind CSS">
+              <div
+                className="card-style3"
+                dataName="Tailwind CSS"
+                data-tooltip="Tailwind CSS"
+              >
                 <img src={assets.tailwindlogo} width="48" height="48"></img>
               </div>
-              <div className="card-style3" dataName="Angular">
+              <div
+                className="card-style3"
+                dataName="Angular"
+                data-tooltip="Angular"
+              >
                 <img src={assets.angularlogo} width="48" height="48"></img>
               </div>
-              <div className="card-style3" dataName="Java">
+              <div className="card-style3" dataName="Java" data-tooltip="Java">
                 <img src={assets.javalogo} width="48" height="48"></img>
               </div>
-              <div className="card-style3" dataName="Python">
+              <div
+                className="card-style3"
+                dataName="Python"
+                data-tooltip="Python"
+              >
                 <img src={assets.pythonlogo} width="48" height="48"></img>
               </div>
             </div>
             <div className="technical-container3">
               <h2>‎</h2>
-              <div className="card-style3" dataName="Kotlin">
+              <div
+                className="card-style3"
+                dataName="Kotlin"
+                data-tooltip="Kotlin"
+              >
                 <img src={assets.kotlinlogo} width="48" height="48"></img>
               </div>
-              <div className="card-style3" dataName="PostgreSQL">
+              <div
+                className="card-style3"
+                dataName="PostgreSQL"
+                data-tooltip="PostgreSQL"
+              >
                 <img src={assets.postgresqllogo} width="48" height="48"></img>
               </div>
-              <div className="card-style3" dataName="Sass">
+              <div className="card-style3" dataName="Sass" data-tooltip="Sass">
                 <img src={assets.sasslogo} width="48" height="48"></img>
               </div>
             </div>
           </div>
           <div className="language-container">
-            <h2>Languages</h2>
+            <h2 className="skill-title">Languages</h2>
             <div className="card-style1">
               <img src={assets.italianlogo} width="48" height="48"></img>
               <h3>Italian</h3>
+              <div className="tooltip-content">
+                <h4>Italian: Native Language</h4>
+                <p>
+                  Proficient in all four skills: reading, writing, listening,
+                  and speaking.
+                </p>
+              </div>
             </div>
             <div className="card-style1">
               <img src={assets.englishlogo} width="48" height="48"></img>
               <h3>English</h3>
+              <div className="tooltip-content">
+                <h4>English: C2 ‎ Proficient</h4>
+                <p>
+                  Proficient in all four skills: reading, writing, listening,
+                  and speaking.
+                </p>
+              </div>
             </div>
             <div className="card-style1">
               <img src={assets.spanishlogo} width="48" height="48"></img>
               <h3>Spanish</h3>
+              <div className="tooltip-content">
+                <h4>Spanish: C2 Proficient</h4>
+                <p>
+                  Proficient in all four skills: reading, writing, listening,
+                  and speaking.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -165,11 +214,13 @@ function Sectionsy() {
             <div className="row1">
               <input
                 type="text"
+                id="fname"
                 placeholder="First Name"
                 className="input-style1"
               />
               <input
                 type="text"
+                id="lname"
                 placeholder="Last Name"
                 className="input-style1"
               />
@@ -177,11 +228,13 @@ function Sectionsy() {
             <div className="row2">
               <input
                 type="text"
+                id="cname"
                 placeholder="Company"
                 className="input-style1"
               />
               <input
                 type="email"
+                id="email"
                 placeholder="E-mail"
                 className="input-style1"
               />
@@ -189,12 +242,14 @@ function Sectionsy() {
             <div className="row3">
               <input
                 type="text"
+                id="subject"
                 placeholder="Subject"
                 className="input-style2"
               />
             </div>
             <div className="row4">
               <textarea
+                id="message"
                 placeholder="Message"
                 className="input-style2 message-input"
               />

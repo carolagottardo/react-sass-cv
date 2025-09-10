@@ -89,56 +89,32 @@ function Sectionsy() {
               </div>
             </div>
             <div className="technical-container2">
-              <h2>‎</h2>
-              <div
-                className="card-style3"
-                dataName="Bootstrap"
-                data-tooltip="Bootstrap"
-              >
+              <div className="card-style3">
                 <img src={assets.bootstraplogo} width="48" height="48"></img>
+                <div className="overlay-text">Bootstrap</div>
               </div>
-              <div
-                className="card-style3"
-                dataName="Tailwind CSS"
-                data-tooltip="Tailwind CSS"
-              >
+              <div className="card-style3">
                 <img src={assets.tailwindlogo} width="48" height="48"></img>
+                <div className="tooltip-content2"> Tailwind CSS</div>
               </div>
-              <div
-                className="card-style3"
-                dataName="Angular"
-                data-tooltip="Angular"
-              >
+              <div className="card-style3">
                 <img src={assets.angularlogo} width="48" height="48"></img>
               </div>
-              <div className="card-style3" dataName="Java" data-tooltip="Java">
+              <div className="card-style3" dataName="Java">
                 <img src={assets.javalogo} width="48" height="48"></img>
               </div>
-              <div
-                className="card-style3"
-                dataName="Python"
-                data-tooltip="Python"
-              >
+              <div className="card-style3">
                 <img src={assets.pythonlogo} width="48" height="48"></img>
               </div>
             </div>
             <div className="technical-container3">
-              <h2>‎</h2>
-              <div
-                className="card-style3"
-                dataName="Kotlin"
-                data-tooltip="Kotlin"
-              >
+              <div className="card-style3">
                 <img src={assets.kotlinlogo} width="48" height="48"></img>
               </div>
-              <div
-                className="card-style3"
-                dataName="PostgreSQL"
-                data-tooltip="PostgreSQL"
-              >
+              <div className="card-style3">
                 <img src={assets.postgresqllogo} width="48" height="48"></img>
               </div>
-              <div className="card-style3" dataName="Sass" data-tooltip="Sass">
+              <div className="card-style3">
                 <img src={assets.sasslogo} width="48" height="48"></img>
               </div>
             </div>
@@ -160,7 +136,7 @@ function Sectionsy() {
               <img src={assets.englishlogo} width="48" height="48"></img>
               <h3>English</h3>
               <div className="tooltip-content">
-                <h4>English: C2 ‎ Proficient</h4>
+                <h4>English: C2 Proficient</h4>
                 <p>
                   Proficient in all four skills: reading, writing, listening,
                   and speaking.

@@ -91,7 +91,7 @@ function Sectionsy() {
             <div className="technical-container2">
               <div className="card-style3">
                 <img src={assets.bootstraplogo} width="48" height="48"></img>
-                <div className="overlay-text">Bootstrap</div>
+                <div className="tooltip-content2">Bootstrap</div>
               </div>
               <div className="card-style3">
                 <img src={assets.tailwindlogo} width="48" height="48"></img>
@@ -99,23 +99,29 @@ function Sectionsy() {
               </div>
               <div className="card-style3">
                 <img src={assets.angularlogo} width="48" height="48"></img>
+                <div className="tooltip-content2">Angular</div>
               </div>
               <div className="card-style3" dataName="Java">
                 <img src={assets.javalogo} width="48" height="48"></img>
+                <div className="tooltip-content2">Java</div>
               </div>
               <div className="card-style3">
                 <img src={assets.pythonlogo} width="48" height="48"></img>
+                <div className="tooltip-content2">Python</div>
               </div>
             </div>
             <div className="technical-container3">
               <div className="card-style3">
                 <img src={assets.kotlinlogo} width="48" height="48"></img>
+                <div className="tooltip-content2">Kotlin</div>
               </div>
               <div className="card-style3">
                 <img src={assets.postgresqllogo} width="48" height="48"></img>
+                <div className="tooltip-content2">PostgreSQL</div>
               </div>
               <div className="card-style3">
                 <img src={assets.sasslogo} width="48" height="48"></img>
+                <div className="tooltip-content2">SASS</div>
               </div>
             </div>
           </div>
@@ -168,11 +174,13 @@ function Sectionsy() {
             <div className="socials-container">
               <div className="social-1">
                 <h3>E-mail</h3>
-                <p>carolamgottardo@gmail.com</p>
+                <a href="mailto:carolamgottardo@gmail.com">
+                  carolamgottardo@gmail.com
+                </a>
               </div>
               <div className="social-2">
                 <h3>Phone</h3>
-                <p>+39 351 7423092</p>
+                <a href="tel:+393517423092">+39 351 742 3092</a>
               </div>
               <div className="social-3">
                 <h3>Socials</h3>

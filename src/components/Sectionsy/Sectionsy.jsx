@@ -32,7 +32,12 @@ function Sectionsy() {
         </div>
         <div className={`title-group ${theme}`}>
           <h1>Carola Gottardo</h1>
-          <p>Aspiring Fullstack Developer</p>
+          <h2>Aspiring Frontend Developer</h2>
+          <p>
+            Recent Computer Science graduate ready to embark on my professional
+            journey in the workforce and begin my career to continuously expand
+            on my skills and knowledge in <span>Frontend Development</span>.
+          </p>
           <div className={`buttonie-container ${theme}`}>
             <a
               href="https://raw.githubusercontent.com/carolagottardo/react-sass-cv/e0a3bae682fd2417fd956f1106f53d0efc6621b0/public/CV/Gottardo_Carola_CV.pdf"
@@ -42,23 +47,8 @@ function Sectionsy() {
             </a>
           </div>
         </div>
-      </div>
-
-      <div id="about" className={`about-section ${theme}`}>
-        <h1>About</h1>
-        <div className={`about-group ${theme}`}>
-          <h2>
-            I'm an aspiring <span>Full Stack Developer</span>.
-          </h2>
-          <p>
-            Recent Computer Science graduate from Università degli Studi
-            dell'Insubria, ready to embark on my professional journey in the
-            workforce and begin my career to continuously expand on my skills
-            and knowledge in <span>Full Stack Development</span>. <br /> <br />{" "}
-            I'm confident that my strong foundation in Computer Science,
-            combined with my enthusiasm for Web and Software Development, will
-            make me a valuable asset to any team.
-          </p>
+        <div className="pic-div">
+          <button className="pic"></button>
         </div>
       </div>
 

@@ -1,9 +1,7 @@
 body.light {
   background-color: #d9cdf1;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body.dark {
   background-color: #1a1229;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }

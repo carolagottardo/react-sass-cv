@@ -6,23 +6,40 @@
 }
 
 .home-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border: 1px solid #a020f0;
   height: 760px;
   scroll-behavior: smooth;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
 
   h1 {
     /* Carola Gottardo */
-    font-size: 60px;
+    font-size: 78px;
+  }
+
+  h2 {
+    /* Aspiring Full Stack Developer */
+    font-size: 28px;
+    margin-top: -20px;
+    color: #9b8abd;
   }
 
   p {
-    /* Aspiring Full Stack Developer */
-    font-size: 24px;
-    margin-top: -20px;
+    font-size: 20px;
+    width: 530px;
+  }
+}
+
+.pic-div {
+  padding-left: 60px;
+
+  .pic {
+    background-color: #110c1b;
+    border-color: #110c1b;
+    border-radius: 10px;
+    width: 360px;
+    height: 450px;
   }
 }
 
@@ -30,6 +47,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-left: 360px;
 
   p {
     transform: rotate(270deg);
@@ -50,7 +68,8 @@
 .title-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 110px;
+  padding-left: 100px;
+  margin-bottom: 100px;
 
   &.light {
     h1 {

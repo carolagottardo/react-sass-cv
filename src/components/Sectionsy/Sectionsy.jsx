@@ -52,6 +52,47 @@ function Sectionsy() {
         </div>
       </div>
 
+      <div id="about" className={`about-section ${theme}`}>
+        <div className="projects">
+          <h1>Projects</h1>
+          <div className={`projects-group ${theme}`}>
+            <div className="card-style5">
+              <h2>Song Library</h2>
+              <h3>Search & Manage App</h3>
+              <p>
+                An application for users to manage a song library. Users can add
+                songs to their library and classify them according to various
+                attributes, including mood, genre, duration and album; users can
+                search for the songs by name or through filters based on the
+                attributes previously mentioned.
+              </p>
+            </div>
+            <div className="card-style5">
+              <h2>Pedometer</h2>
+              <h3>Step Tracker App</h3>
+              <p>
+                An application for users to record the number of steps taken
+                (pedometer). Users can record and keep track of steps taken,
+                distance traveled and walking time; users can participate in a
+                series of challenges aimed at encouraging the user to reach
+                their fitness goals and objectives.
+              </p>
+            </div>
+            <div className="card-style5">
+              <h2>Restaurant</h2>
+              <h3>Search & Review App</h3>
+              <p>
+                An application for users to record the number of steps taken
+                (pedometer). Users can record and keep track of steps taken,
+                distance traveled and walking time; users can participate in a
+                series of challenges aimed at encouraging the user to reach
+                their fitness goals and objectives.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div id="skills" className="skills-section">
         <div className="skills-container">
           <div className="technical-containers">

@@ -107,16 +107,6 @@
     color: #9b8abd;
     margin-top: 0px;
   }
-
-  h2 {
-    font-size: 24px;
-    margin-top: 60px;
-  }
-
-  p {
-    font-size: 18px;
-    width: 530px;
-  }
 }
 
 .skills-section {
@@ -584,12 +574,40 @@ hr {
   background-color: #9b8abd;
 }
 
-.about-group {
+.projects {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+}
+
+.projects-group {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
 }
 
 .skill-title {
   color: #9b8abd;
+}
+
+.card-style5 {
+  width: 340px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #110c1b;
+
+  h2 {
+    color: #9b8abd;
+    padding-left: 24px;
+    font-size: 28px;
+  }
+
+  h3 {
+    padding-left: 24px;
+    font-size: 22px;
+  }
+
+  p {
+    padding: 24px;
+    font-size: 18px;
+  }
 }

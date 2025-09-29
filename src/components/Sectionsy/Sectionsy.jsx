@@ -285,6 +285,29 @@ function Sectionsy() {
       </div>
 
       <footer className="footer-section">
+        <div className="separation-footer">
+          <div>
+            <h1>Carola Gottardo</h1>
+            <div className="column1-footer">
+              <a href="mailto:carolamgottardo@gmail.com">
+                carolamgottardo@gmail.com
+              </a>
+              <a href="tel:+393517423092">+39 351 742 3092</a>
+            </div>
+          </div>
+          <div className="column2-footer">
+            <p>About</p>
+            <p>Projects</p>
+            <p>Skills</p>
+            <p>Contact</p>
+          </div>
+          <div className="column4-footer">
+            <a href="https://www.linkedin.com/in/carola-gottardo-579214333/">
+              LinkedIn
+            </a>
+            <a href="https://github.com/carolagottardo">GitHub</a>
+          </div>
+        </div>
         <BackUpButton className="backupbutton" />
       </footer>
     </div>

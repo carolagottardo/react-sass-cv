@@ -540,12 +540,20 @@ span {
 }
 
 .footer-section {
-  height: 80px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 200px;
-  margin-top: 20px;
+  justify-content: center;
+  gap: 400px;
+  padding-top: 10px;
+
+  h1 {
+    color: #342059;
+    font-size: 20px;
+  }
+
+  p {
+    color: #342059;
+  }
 }
 
 .butt {
@@ -610,4 +618,46 @@ hr {
     padding: 24px;
     font-size: 18px;
   }
+}
+
+.column3-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-right: 280px;
+
+  a {
+    color: #342059;
+    padding-top: 14px;
+    text-decoration: none;
+  }
+}
+
+.column4-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  a {
+    color: #342059;
+    padding-top: 14px;
+    text-decoration: none;
+  }
+}
+
+.column1-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-right: 40px;
+
+  a {
+    color: #342059;
+  }
+}
+
+.separation-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
 }

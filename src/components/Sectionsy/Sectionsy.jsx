@@ -97,7 +97,7 @@ function Sectionsy() {
         <div className="skills-container">
           <div className="technical-containers">
             <div className="technical-container1">
-              <h2 className="skill-title">Technical Skills</h2>
+              <h1>Technical Skills</h1>
               <div className="card-style1">
                 <img src={assets.javascriptlogo} width="48" height="48"></img>
                 <h3>JavaScript</h3>
@@ -157,7 +157,7 @@ function Sectionsy() {
             </div>
           </div>
           <div className="language-container">
-            <h2 className="skill-title">Languages</h2>
+            <h1>Languages</h1>
             <div className="card-style1">
               <img src={assets.italianlogo} width="48" height="48"></img>
               <h3>Italian</h3>

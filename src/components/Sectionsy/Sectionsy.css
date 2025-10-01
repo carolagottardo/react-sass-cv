@@ -131,26 +131,47 @@
 .skills-container {
   display: flex;
   flex-direction: row;
-  gap: 240px;
+  gap: 360px;
 }
 
 .technical-containers {
   display: flex;
   flex-direction: row;
-  gap: 14px;
+  gap: 20px;
+}
+
+.technical-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  h1 {
+    font-size: 40px;
+  }
 }
 
 .technical-container2 {
-  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 120px;
 }
 
 .technical-container3 {
-  padding-top: 50px;
-}
-
-.languages-container {
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  padding-top: 120px;
+}
+
+.language-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  h1 {
+    font-size: 40px;
+  }
 }
 
 .contact-section {
@@ -299,9 +320,8 @@ span {
   flex-direction: row;
   align-items: center;
   background-color: #110c1b;
-  margin-top: 24px;
   border-radius: 10px;
-  width: 260px;
+  width: 240px;
   height: 80px;
 
   h3 {
@@ -410,7 +430,6 @@ span {
   flex-direction: column;
   justify-content: center;
   background-color: #110c1b;
-  margin-top: 24px;
   border-radius: 10px;
   width: 90px;
   height: 80px;
@@ -585,6 +604,10 @@ hr {
 .projects {
   display: flex;
   flex-direction: column;
+
+  h1 {
+    font-size: 40px;
+  }
 }
 
 .projects-group {
@@ -599,7 +622,7 @@ hr {
 
 .card-style5 {
   width: 340px;
-  height: 500px;
+  height: 440px;
   border-radius: 10px;
   background-color: #110c1b;
 

@@ -47,9 +47,7 @@ function Sectionsy() {
             </a>
           </div>
         </div>
-        <div className="pic-div">
-          <button className="pic"></button>
-        </div>
+        <div className="card-style6"></div>
       </div>
 
       <div id="about" className={`about-section ${theme}`}>

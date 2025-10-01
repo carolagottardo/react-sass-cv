@@ -562,16 +562,16 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 400px;
+  gap: 540px;
   padding-top: 10px;
 
   h1 {
-    color: #342059;
-    font-size: 20px;
+    color: #9b8abd;
+    font-size: 26px;
   }
 
   p {
-    color: #342059;
+    color: #9b8abd;
   }
 }
 
@@ -650,7 +650,7 @@ hr {
   padding-right: 280px;
 
   a {
-    color: #342059;
+    color: #9b8abd;
     padding-top: 14px;
     text-decoration: none;
   }
@@ -662,7 +662,7 @@ hr {
   gap: 2px;
 
   a {
-    color: #342059;
+    color: #9b8abd;
     padding-top: 14px;
     text-decoration: none;
   }
@@ -675,7 +675,7 @@ hr {
   padding-right: 40px;
 
   a {
-    color: #342059;
+    color: #9b8abd;
   }
 }
 
@@ -683,4 +683,12 @@ hr {
   display: flex;
   flex-direction: row;
   gap: 60px;
+}
+
+.card-style6 {
+  width: 340px;
+  height: 440px;
+  border-radius: 10px;
+  background-color: #110c1b;
+  margin-left: 40px;
 }

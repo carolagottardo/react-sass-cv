@@ -195,7 +195,7 @@ function Sectionsy() {
         </div>
       </div>
 
-      <div id="contact" className="contact-section">
+      {/* <div id="contact" className="contact-section">
         <div className="cardsies-pluraldouble">
           <div className="card-style4">
             <div className="logo-socials-container">
@@ -282,7 +282,7 @@ function Sectionsy() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <footer className="footer-section">
         <div className="separation-footer">

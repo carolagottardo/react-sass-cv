@@ -77,7 +77,7 @@
     }
 
     p {
-      color: #8774ac;
+      color: #281b40;
     }
   }
 
@@ -147,6 +147,18 @@
 
   h1 {
     font-size: 40px;
+  }
+
+  &.dark {
+    h1 {
+      color: #9b8abd;
+    }
+  }
+
+  &.light {
+    h1 {
+      color: #9b8abd;
+    }
   }
 }
 
@@ -331,6 +343,22 @@ span {
   img {
     padding: 20px;
   }
+
+  &.dark {
+    background-color: #110c1b;
+
+    h3 {
+      color: #d9cdf1;
+    }
+  }
+
+  &.light {
+    background-color: #c0b0df;
+
+    h3 {
+      color: #110c1b;
+    }
+  }
 }
 
 .tooltip-content {
@@ -344,15 +372,55 @@ span {
   left: 110%;
   transform: translateY(-50%) translateX(15px);
 
-  background-color: #110c1b;
-  color: #fff;
   padding: 10px 15px;
   border-radius: 6px;
-  border: 1px solid #383145;
+  border: 1px solid;
   min-width: 180px;
   max-width: 250px;
   z-index: 100;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+  &.dark {
+    background-color: #110c1b;
+    border-color: #c0b0df;
+
+    h4 {
+      color: #8774ac;
+    }
+
+    p {
+      color: white;
+    }
+
+    &::before {
+      border-color: transparent #110c1b transparent transparent;
+    }
+
+    &::after {
+      border-color: transparent white transparent transparent;
+    }
+  }
+
+  &.light {
+    background-color: #c0b0df;
+    border-color: #110c1b;
+
+    h4 {
+      color: #8774ac;
+    }
+
+    p {
+      color: #110c1b;
+    }
+
+    &::before {
+      border-color: transparent #c0b0df transparent transparent;
+    }
+
+    &::after {
+      border-color: transparent #110c1b transparent transparent;
+    }
+  }
 }
 
 .tooltip-content::before {
@@ -361,9 +429,8 @@ span {
   top: 50%;
   right: 100%;
   transform: translateY(-50%);
-  border-width: 7px;
+  border-width: 8px;
   border-style: solid;
-  border-color: transparent #110c1b transparent transparent;
   z-index: 10;
 }
 
@@ -375,7 +442,6 @@ span {
   transform: translateY(-50%);
   border-width: 9px;
   border-style: solid;
-  border-color: transparent #383145 transparent transparent;
   z-index: 5;
 }
 
@@ -386,14 +452,12 @@ span {
 }
 
 .tooltip-content h4 {
-  color: #9b8abd;
   font-size: 1.1em;
   margin-top: 0;
   margin-bottom: 5px;
 }
 
 .tooltip-content p {
-  color: #e0e0e0;
   font-size: 0.9em;
   line-height: 1.4;
   margin-bottom: 0;
@@ -437,6 +501,14 @@ span {
   img {
     padding: 20px;
   }
+
+  &.dark {
+    background-color: #110c1b;
+  }
+
+  &.light {
+    background-color: #c0b0df;
+  }
 }
 
 .tooltip-content2 {
@@ -450,16 +522,42 @@ span {
   left: 110%;
   transform: translateY(-50%) translateX(15px);
 
-  background-color: #110c1b;
-  color: #fff;
   padding: 10px 15px;
   border-radius: 6px;
-  border: 1px solid #383145;
+  border: 1px solid;
   min-width: 100px;
   max-width: 250px;
   z-index: 100;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
+
+  &.dark {
+    background-color: #110c1b;
+    border-color: #c0b0df;
+    color: white;
+
+    &::before {
+      border-color: transparent #110c1b transparent transparent;
+    }
+
+    &::after {
+      border-color: transparent white transparent transparent;
+    }
+  }
+
+  &.light {
+    background-color: #c0b0df;
+    border-color: #110c1b;
+    color: #110c1b;
+
+    &::before {
+      border-color: transparent #c0b0df transparent transparent;
+    }
+
+    &::after {
+      border-color: transparent #110c1b transparent transparent;
+    }
+  }
 }
 
 .tooltip-content2::before {
@@ -468,9 +566,8 @@ span {
   top: 50%;
   right: 100%;
   transform: translateY(-50%);
-  border-width: 7px;
+  border-width: 8px;
   border-style: solid;
-  border-color: transparent #110c1b transparent transparent;
   z-index: 10;
 }
 
@@ -482,7 +579,6 @@ span {
   transform: translateY(-50%);
   border-width: 9px;
   border-style: solid;
-  border-color: transparent #383145 transparent transparent;
   z-index: 5;
 }
 
@@ -608,6 +704,12 @@ hr {
   h1 {
     font-size: 40px;
   }
+
+  &.dark {
+    h1 {
+      color: #8774ac;
+    }
+  }
 }
 
 .projects-group {
@@ -627,7 +729,6 @@ hr {
   background-color: #110c1b;
 
   h2 {
-    color: #9b8abd;
     padding-left: 24px;
     font-size: 28px;
   }
@@ -641,30 +742,77 @@ hr {
     padding: 24px;
     font-size: 18px;
   }
+
+  &.dark {
+    background-color: #110c1b;
+
+    h2 {
+      color: #8774ac;
+    }
+
+    h3 {
+      color: white;
+    }
+
+    p {
+      color: white;
+    }
+  }
+
+  &.light {
+    background-color: #c0b0df;
+
+    h2 {
+      color: #8774ac;
+    }
+
+    h3 {
+      color: #110c1b;
+    }
+
+    p {
+      color: #110c1b;
+    }
+  }
+}
+
+.column2-footer {
+  display: flex;
+  flex-direction: column;
+
+  &.dark {
+    p {
+      color: #9b8abd;
+    }
+  }
+
+  &.light {
+    p {
+      color: #110c1b;
+    }
+  }
 }
 
 .column3-footer {
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  padding-right: 280px;
+  gap: 16px;
 
   a {
-    color: #9b8abd;
-    padding-top: 14px;
+    padding-top: 16px;
     text-decoration: none;
   }
-}
 
-.column4-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
+  &.dark {
+    a {
+      color: #9b8abd;
+    }
+  }
 
-  a {
-    color: #9b8abd;
-    padding-top: 14px;
-    text-decoration: none;
+  &.light {
+    a {
+      color: #110c1b;
+    }
   }
 }
 
@@ -674,8 +822,16 @@ hr {
   gap: 16px;
   padding-right: 40px;
 
-  a {
-    color: #9b8abd;
+  &.dark {
+    a {
+      color: #9b8abd;
+    }
+  }
+
+  &.light {
+    a {
+      color: #110c1b;
+    }
   }
 }
 
@@ -683,6 +839,18 @@ hr {
   display: flex;
   flex-direction: row;
   gap: 60px;
+
+  &.dark {
+    h1 {
+      color: #9b8abd;
+    }
+  }
+
+  &.light {
+    h1 {
+      color: #110c1b;
+    }
+  }
 }
 
 .card-style6 {
@@ -691,4 +859,12 @@ hr {
   border-radius: 10px;
   background-color: #110c1b;
   margin-left: 40px;
+
+  &.dark {
+    background-color: #110c1b;
+  }
+
+  &.light {
+    background-color: #c0b0df;
+  }
 }

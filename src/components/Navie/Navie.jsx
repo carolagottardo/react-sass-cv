@@ -21,7 +21,7 @@ function Navie() {
           </button>
           <button className="buttons-style">
             <Link to="about" smooth={true} duration={500} offset={-160}>
-              About
+              Projects
             </Link>
           </button>
           <button className="buttons-style">

@@ -47,14 +47,14 @@ function Sectionsy() {
             </a>
           </div>
         </div>
-        <div className="card-style6"></div>
+        <div className={`card-style6 ${theme}`}></div>
       </div>
 
       <div id="about" className={`about-section ${theme}`}>
-        <div className="projects">
+        <div className={`projects ${theme}`}>
           <h1>Projects</h1>
           <div className={`projects-group ${theme}`}>
-            <div className="card-style5">
+            <div className={`card-style5 ${theme}`}>
               <h2>Song Library</h2>
               <h3>Search & Manage App</h3>
               <p>
@@ -65,7 +65,7 @@ function Sectionsy() {
                 attributes previously mentioned.
               </p>
             </div>
-            <div className="card-style5">
+            <div className={`card-style5 ${theme}`}>
               <h2>Pedometer</h2>
               <h3>Step Tracker App</h3>
               <p>
@@ -76,7 +76,7 @@ function Sectionsy() {
                 their fitness goals and objectives.
               </p>
             </div>
-            <div className="card-style5">
+            <div className={`card-style5 ${theme}`}>
               <h2>Restaurant</h2>
               <h3>Search & Review App</h3>
               <p>
@@ -94,72 +94,72 @@ function Sectionsy() {
       <div id="skills" className="skills-section">
         <div className="skills-container">
           <div className="technical-containers">
-            <div className="technical-container1">
+            <div className={`technical-container1 ${theme}`}>
               <h1>Technical Skills</h1>
-              <div className="card-style1">
+              <div className={`card-style1 ${theme}`}>
                 <img src={assets.javascriptlogo} width="48" height="48"></img>
                 <h3>JavaScript</h3>
               </div>
-              <div className="card-style1">
+              <div className={`card-style1 ${theme}`}>
                 <img src={assets.typescriptlogo} width="48" height="48"></img>
                 <h3>TypeScript</h3>
               </div>
-              <div className="card-style1">
+              <div className={`card-style1 ${theme}`}>
                 <img src={assets.reactlogo} width="48" height="48"></img>
                 <h3>React</h3>
               </div>
-              <div className="card-style1">
+              <div className={`card-style1 ${theme}`}>
                 <img src={assets.htmllogo} width="48" height="48"></img>
                 <h3>HTML</h3>
               </div>
-              <div className="card-style1">
+              <div className={`card-style1 ${theme}`}>
                 <img src={assets.csslogo} width="48" height="48"></img>
                 <h3>CSS</h3>
               </div>
             </div>
-            <div className="technical-container2">
-              <div className="card-style3">
+            <div className={`technical-container2 ${theme}`}>
+              <div className={`card-style3 ${theme}`}>
                 <img src={assets.bootstraplogo} width="48" height="48"></img>
-                <div className="tooltip-content2">Bootstrap</div>
+                <div className={`tooltip-content2 ${theme}`}>Bootstrap</div>
               </div>
-              <div className="card-style3">
+              <div className={`card-style3 ${theme}`}>
                 <img src={assets.tailwindlogo} width="48" height="48"></img>
-                <div className="tooltip-content2"> Tailwind CSS</div>
+                <div className={`tooltip-content2 ${theme}`}> Tailwind CSS</div>
               </div>
-              <div className="card-style3">
+              <div className={`card-style3 ${theme}`}>
                 <img src={assets.angularlogo} width="48" height="48"></img>
-                <div className="tooltip-content2">Angular</div>
+                <div className={`tooltip-content2 ${theme}`}>Angular</div>
               </div>
-              <div className="card-style3" dataName="Java">
+              <div className={`card-style3 ${theme}`}>
                 <img src={assets.javalogo} width="48" height="48"></img>
-                <div className="tooltip-content2">Java</div>
+                <div className={`tooltip-content2 ${theme}`}>Java</div>
               </div>
-              <div className="card-style3">
+              <div className={`card-style3 ${theme}`}>
                 <img src={assets.pythonlogo} width="48" height="48"></img>
-                <div className="tooltip-content2">Python</div>
+                <div className={`tooltip-content2 ${theme}`}>Python</div>
               </div>
             </div>
-            <div className="technical-container3">
-              <div className="card-style3">
+            <div className={`technical-container3 ${theme}`}>
+              <div className={`card-style3 ${theme}`}>
                 <img src={assets.kotlinlogo} width="48" height="48"></img>
-                <div className="tooltip-content2">Kotlin</div>
+                <div className={`tooltip-content2 ${theme}`}>Kotlin</div>
               </div>
-              <div className="card-style3">
+              <div className={`card-style3 ${theme}`}>
                 <img src={assets.postgresqllogo} width="48" height="48"></img>
-                <div className="tooltip-content2">PostgreSQL</div>
+                <div className={`tooltip-content2 ${theme}`}>PostgreSQL</div>
               </div>
-              <div className="card-style3">
+              <div className={`card-style3 ${theme}`}>
                 <img src={assets.sasslogo} width="48" height="48"></img>
-                <div className="tooltip-content2">SASS</div>
+                <div className={`tooltip-content2 ${theme}`}>SASS</div>
               </div>
             </div>
           </div>
-          <div className="language-container">
+          <div className={`language-container ${theme}`}>
             <h1>Languages</h1>
-            <div className="card-style1">
+            <div className={`card-style1 ${theme}`}>
               <img src={assets.italianlogo} width="48" height="48"></img>
               <h3>Italian</h3>
-              <div className="tooltip-content">
+              <div className={`tooltip-content ${theme}`}>
                 <h4>Italian: Native Language</h4>
                 <p>
                   Proficient in all four skills: reading, writing, listening,
@@ -167,10 +167,10 @@ function Sectionsy() {
                 </p>
               </div>
             </div>
-            <div className="card-style1">
+            <div className={`card-style1 ${theme}`}>
               <img src={assets.englishlogo} width="48" height="48"></img>
               <h3>English</h3>
-              <div className="tooltip-content">
+              <div className={`tooltip-content ${theme}`}>
                 <h4>English: C2 Proficient</h4>
                 <p>
                   Proficient in all four skills: reading, writing, listening,
@@ -178,10 +178,10 @@ function Sectionsy() {
                 </p>
               </div>
             </div>
-            <div className="card-style1">
+            <div className={`card-style1 ${theme}`}>
               <img src={assets.spanishlogo} width="48" height="48"></img>
               <h3>Spanish</h3>
-              <div className="tooltip-content">
+              <div className={`tooltip-content ${theme}`}>
                 <h4>Spanish: C2 Proficient</h4>
                 <p>
                   Proficient in all four skills: reading, writing, listening,
@@ -283,23 +283,23 @@ function Sectionsy() {
       </div> */}
 
       <footer className="footer-section">
-        <div className="separation-footer">
+        <div className={`separation-footer ${theme}`}>
           <div>
             <h1>Carola Gottardo</h1>
-            <div className="column1-footer">
+            <div className={`column1-footer ${theme}`}>
               <a href="mailto:carolamgottardo@gmail.com">
                 carolamgottardo@gmail.com
               </a>
               <a href="tel:+393517423092">+39 351 742 3092</a>
             </div>
           </div>
-          <div className="column2-footer">
+          <div className={`column2-footer ${theme}`}>
             <p>About</p>
             <p>Projects</p>
             <p>Skills</p>
             <p>Contact</p>
           </div>
-          <div className="column4-footer">
+          <div className={`column3-footer ${theme}`}>
             <a href="https://www.linkedin.com/in/carola-gottardo-579214333/">
               LinkedIn
             </a>
